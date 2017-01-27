@@ -2,10 +2,10 @@
 class DB extends \PDO
 {
     protected $settings = [
-        'host' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'dbname' => 'chat',
+        'host' => '	mysql.hostinger.web.tr',
+        'username' => 'u179004212_chat',
+        'password' => '+905710420',
+        'dbname' => 'u179004212_chat',
         'charset' => 'utf8',
         'driver' => 'pdo'
     ];
