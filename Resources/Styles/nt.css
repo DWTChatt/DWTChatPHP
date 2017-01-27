@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+    content: ' ';
+    display: table;
+}
+.container:after,
+.row:after {
+    clear: both
+}
+[class*='-column'] {
+    width: 100%;
+    float: left;
+    min-height: 1px;
+}
+.col {
+    margin-left: 8px;
+    margin-right: 8px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 320px) {
+    .nt-xs-1-col{width: 8.33333%;}
+    .nt-xs-2-col{width: 16.66667%;}
+    .nt-xs-3-col{width: 25%;}
+    .nt-xs-4-col{width: 33.33333%;}
+    .nt-xs-5-col{width: 41.66667%;}
+    .nt-xs-6-col{width: 50%;}
+    .nt-xs-7-col{width: 58.33333%;}
+    .nt-xs-8-col{width: 66.66667%;}
+    .nt-xs-9-col{width: 75%;}
+    .nt-xs-10-col{width: 83.33333%;}
+    .nt-xs-11-col{width: 91.66667%;}
+    .nt-xs-12-col{width: 100%;}
+    .nt-xs-pull-left{float: left;}
+    .nt-xs-pull-right{float: right;}
+    .nt-xs-text-center{text-align:center;}
+}
+@media screen and (min-width: 640px) {
+    .nt-md-1-col{width: 8.33333%;}
+    .nt-md-2-col{width: 16.66667%;}
+    .nt-md-3-col{width: 25%;}
+    .nt-md-4-col{width: 33.33333%;}
+    .nt-md-5-col{width: 41.66667%;}
+    .nt-md-6-col{width: 50%;}
+    .nt-md-7-col{width: 58.33333%;}
+    .nt-md-8-col{width: 66.66667%;}
+    .nt-md-9-col{width: 75%;}
+    .nt-md-10-col{width: 83.33333%;}
+    .nt-md-11-col{width: 91.66667%;}
+    .nt-md-12-col{width: 100%;}
+    .nt-md-pull-left{float: left;}
+    .nt-md-pull-right{float: right;}
+    .nt-md-text-center{text-align:center;}
+}
+@media screen and (min-width: 960px) {
+    .nt-lg-1-col{width: 8.33333%;}
+    .nt-lg-2-col{width: 16.66667%;}
+    .nt-lg-3-col{width: 25%;}
+    .nt-lg-4-col{width: 33.33333%;}
+    .nt-lg-5-col{width: 41.66667%;}
+    .nt-lg-6-col{width: 50%;}
+    .nt-lg-7-col{width: 58.33333%;}
+    .nt-lg-8-col{width: 66.66667%;}
+    .nt-lg-9-col{width: 75%;}
+    .nt-lg-10-col{width: 83.33333%;}
+    .nt-lg-11-col{width: 91.66667%;}
+    .nt-lg-12-col{width: 100%;}
+    .nt-lg-pull-left{float: left;}
+    .nt-lg-pull-right{float: right;}
+    .nt-lg-text-center{text-align:center;}
+}
+
+.nt-color-red { background-color: #f44336; }
+.nt-color-pink { background-color: #E91E63; }
+.nt-color-purple { background-color: #9C27B0; }
+.nt-color-deep-purple { background-color: #673AB7; }
+.nt-color-indigo { background-color: #3F51B5; }
+.nt-color-blue { background-color: #2196F3; }
+.nt-color-light-blue { background-color: #03A9F4; }
+.nt-color-cyan { background-color: #00BCD4; }
+.nt-color-teal { background-color: #009688; }
+.nt-color-green { background-color: #4CAF50; }
+.nt-color-light-green { background-color: #8BC34A; }
+.nt-color-lime { background-color: #CDDC39; }
+.nt-color-yellow { background-color: #FFEB3B; }
+.nt-color-amber { background-color: #FFC107; }
+.nt-color-orange { background-color: #FF9800; }
+.nt-color-deep-orange { background-color: #FF5722; }
+.nt-color-brown { background-color: #795548; }
+.nt-color-grey { background-color: #9E9E9E; }
+.nt-color-blue-grey { background-color: #607D8B; }
+.nt-color-white { background-color: #ffffff; }
+.nt-color-black { background-color: #000000; }
+
+.nt-text-color-red { color: #f44336; }
+.nt-text-color-pink { color: #E91E63; }
+.nt-text-color-purple { color: #9C27B0; }
+.nt-text-color-deep-purple { color: #673AB7; }
+.nt-text-color-indigo { color: #3F51B5; }
+.nt-text-color-blue { color: #2196F3; }
+.nt-text-color-light-blue { color: #03A9F4; }
+.nt-text-color-cyan { color: #00BCD4; }
+.nt-text-color-teal { color: #009688; }
+.nt-text-color-green { color: #4CAF50; }
+.nt-text-color-light-green { color: #8BC34A; }
+.nt-text-color-lime { color: #CDDC39; }
+.nt-text-color-yellow { color: #FFEB3B; }
+.nt-text-color-amber { color: #FFC107; }
+.nt-text-color-orange { color: #FF9800; }
+.nt-text-color-deep-orange { color: #FF5722; }
+.nt-text-color-brown { color: #795548; }
+.nt-text-color-grey { color: #9E9E9E; }
+.nt-text-color-blue-grey { color: #607D8B; }
+.nt-text-color-white { color: #ffffff; }
+.nt-text-color-black { color: #000000; }
+

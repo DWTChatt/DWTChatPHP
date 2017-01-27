@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ title }}</title>
+    {{ head | raw }}
+</head>
+<body class="nt-color-default">
+    <div class="customize">
+    </div>
+    <div class="general">
+        <div class="neptunefw">
+            <div class="neptune-logo">
+                <img src="{{ logo }}"/>
+            </div>
+            <div class="neptune nt-text-color-default">{{ neptune }}</div>
+            <div class="framework nt-text-color-default">{{ framework | raw}}</div>
+            <div class="version nt-text-color-default">{{ version | raw }}</div>
+            <div class="copyright nt-text-color-default"> &copy; {{ copyright | raw}}</div>
+            <div class="languages nt-text-color-default">
+                <ul>
+                    <li class="nt-text-color-default">
+                        <a nt-lang="tr_TR" class="nt-text-color-default">{{ Turkish }}</a>
+                        <a nt-lang="en_US" class="nt-text-color-default">{{ English }}</a>
+                        <a nt-lang="ar_AR" class="nt-text-color-default">{{ Arabic}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="color-switcher">
+                <label class="radio">
+                    <input type="radio" class="color"  nt-switch-color="white" nt-switch-text-color="grey" {{ white }}  name="color">
+                    <span class="radio  nt-color-white"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color " nt-switch-color="red" {{ red }} nt-switch-text-color="white" name="color">
+                    <span class="radio nt-color-red"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="pink" {{ pink }} nt-switch-text-color="white" name="color">
+                    <span class="radio  nt-color-pink"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="purple" {{ purple }} nt-switch-text-color="white" name="color">
+                    <span class="radio  nt-color-purple"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color " nt-switch-color="deep-purple" {{ deep_purple }} nt-switch-text-color="white" name="color">
+                    <span class="radio nt-color-deep-purple"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color " nt-switch-color="indigo" {{ indigo }} nt-switch-text-color="white" name="color">
+                    <span class="radio nt-color-indigo"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color " nt-switch-color="blue" {{ blue }} nt-switch-text-color="white" name="color">
+                    <span class="radio nt-color-blue"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="light-blue" {{ light_blue }} nt-switch-text-color="white" name="color">
+                    <span class="radio  nt-color-light-blue"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color " nt-switch-color="cyan" {{ cyan }} nt-switch-text-color="brown" name="color">
+                    <span class="radio nt-color-cyan"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="teal" {{ teal }} nt-switch-text-color="white" name="color">
+                    <span class="radio  nt-color-teal"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="green" {{ green }} nt-switch-text-color="white" name="color">
+                    <span class="radio  nt-color-green"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="light-green" {{ light_green }} nt-switch-text-color="black" name="color">
+                    <span class="radio  nt-color-light-green"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="lime" {{ lime }} nt-switch-text-color="pink" name="color">
+                    <span class="radio  nt-color-lime"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color " nt-switch-color="yellow" {{ yellow }} nt-switch-text-color="red" name="color">
+                    <span class="radio nt-color-yellow"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color " nt-switch-color="amber" {{ amber }} nt-switch-text-color="white" name="color">
+                    <span class="radio nt-color-amber"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="orange" {{ orange }} nt-switch-text-color="white" name="color">
+                    <span class="radio nt-color-orange"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="deep-orange" {{ deep_orange }} nt-switch-text-color="white" name="color">
+                    <span class="radio nt-color-deep-orange"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="grey" {{ grey }} nt-switch-text-color="white" name="color">
+                    <span class="radio  nt-color-grey"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="blue-grey" {{ blue_grey }} nt-switch-text-color="white" name="color">
+                    <span class="radio nt-color-blue-grey"></span>
+                </label>
+                <label class="radio">
+                    <input type="radio" class="color" nt-switch-color="black" {{ black }} nt-switch-text-color="white" name="color">
+                    <span class="radio nt-color-black"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+    {{ body | raw }}
+</body>
+</html>
