@@ -1,5 +1,5 @@
 <?php
-require_once ROOT_DIR . '\ViewEngine\lib\Twig\Autoloader.php';
+
 class Load
 {
     public static function view($fileName, $data = array()){
